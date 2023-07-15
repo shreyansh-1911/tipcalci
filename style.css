@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+span{
+    color: black;
+    font-size: 20px;
+}
+.container{
+    background-color: white;
+    width: 350px;
+    height: 410px;
+    border-radius: 0px 30px 0px 30px;
+    box-shadow:  0 0 20px black;
+    padding: 30px 30px;
+    background: url(Images/page.jpg);
+}
+.bill-section{
+    width: 100px;
+    height: 40px;
+    align-items: last baseline;
+    justify-content: center;
+    color: rgb(91, 90, 91);
+    display: flex;
+    padding: 0px 0px 0px 8px;
+    border-bottom: 1px solid black;
+}
+.bill, .tip,.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bill-amount{
+    width: 70px;
+    border: 0;
+    outline: 0;
+    height: 25px;
+    background-color: transparent;
+    font-size: 20px;
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+}
+#bill-amount::placeholder{
+    color: rgb(185, 147, 147);
+}
+.tip,.total{
+    margin: 10px 0px;
+}
+.tip-percent,.people{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+.section{
+    margin: 25px 0px;
+}
+.section input{
+    width: 100%;
+    cursor: pointer;
+}
+.footer{
+    color: black;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 0px;
+    border-radius: 15px;
+}
+.output-1,.output-2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
